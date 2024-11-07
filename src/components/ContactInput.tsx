@@ -21,12 +21,14 @@ function ContactInput({
         placeholder="Nama"
         value={name}
         onChange={(e) => setName(e.target.value)}
+        required
       />
       <input
         type="text"
         placeholder="Tag"
         value={tag}
         onChange={(e) => setTag(e.target.value)}
+        required
       />
       <button type="submit">Tambah</button>
     </form>
